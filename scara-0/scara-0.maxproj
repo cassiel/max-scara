@@ -2,8 +2,8 @@
 	"name" : "scara-0",
 	"version" : 1,
 	"creationdate" : 3516796957,
-	"modificationdate" : 3516796965,
-	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
+	"modificationdate" : 3516810945,
+	"viewrect" : [ 834.0, 186.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -14,6 +14,11 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"joint.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 
 		}
