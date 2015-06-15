@@ -9,9 +9,9 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 519.0, 209.0, 405.0, 392.0 ],
-		"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-		"editing_bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+		"rect" : [ 1011.0, 394.0, 824.0, 401.0 ],
+		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -58,9 +58,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 60.0, 230.0, 479.0, 20.0 ],
+					"patching_rect" : [ 60.0, 230.0, 493.0, 20.0 ],
 					"style" : "",
-					"text" : "jit.gl.gridshape @shape cone @smooth_shading 1 @lighting_enable 1"
+					"text" : "jit.gl.gridshape @shape circle @smooth_shading 1 @lighting_enable 1"
 				}
 
 			}
@@ -136,12 +136,12 @@
 						"autogradient" : 0
 					}
 ,
-					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
 					"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-					"fontname" : [ "Courier" ],
+					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
 					"patchlinecolor" : [ 0.960784, 0.827451, 0.156863, 0.9 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
+					"fontname" : [ "Courier" ],
+					"elementcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -151,8 +151,8 @@
 				"name" : "foo-style",
 				"default" : 				{
 					"fontname" : [ "Courier" ],
-					"color" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-					"elementcolor" : [ 0.836576, 0.903148, 0.643029, 1.0 ]
+					"elementcolor" : [ 0.836576, 0.903148, 0.643029, 1.0 ],
+					"color" : [ 0.720698, 0.16723, 0.080014, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -161,12 +161,12 @@
 , 			{
 				"name" : "sky-blue",
 				"default" : 				{
-					"bgcolor" : [ 0.670588, 0.74902, 0.807843, 1.0 ],
 					"selectioncolor" : [ 0.870588, 0.415686, 0.062745, 1.0 ],
-					"fontname" : [ "Courier" ],
+					"bgcolor" : [ 0.670588, 0.74902, 0.807843, 1.0 ],
 					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"color" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-					"elementcolor" : [ 0.792189, 0.848618, 0.854853, 1.0 ]
+					"fontname" : [ "Courier" ],
+					"elementcolor" : [ 0.792189, 0.848618, 0.854853, 1.0 ],
+					"color" : [ 0.095481, 0.100396, 0.100293, 1.0 ]
 				}
 ,
 				"parentstyle" : "default",
